@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $canSubmit) {
 </head>
 <body>
     <div class="container mt-5">
-        <h1>欢迎加入茶话会</h1>
+        <h1>欢迎加入我们</h1>
         <p>在您加入之前请填写您的游戏ID</p>
         <p class="text-danger">请填写如果输入的不是您正在游玩的游戏ID后果自负</p>
         <?php if (!$canSubmit): ?>
